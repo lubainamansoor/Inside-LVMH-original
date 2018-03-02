@@ -1,0 +1,50 @@
+/* Two columns side by side */
+.content {
+    :  position: relative;
+}
+
+
+/* Two columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 450px) {
+    .column {
+        width: 90%;
+        display: block;
+    }
+}
+
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 50px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: none;
+}
+
+.title {
+    color: pink;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.img-circle {
+    border-radius: 60%
+}
