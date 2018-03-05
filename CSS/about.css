@@ -28,6 +28,7 @@
 /* Some left and right padding inside the container */
 .container {
     padding: 0 50px;
+    image-orientation: center
 }
 
 /* Clear floats */

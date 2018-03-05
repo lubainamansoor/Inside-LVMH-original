@@ -1,0 +1,21 @@
+.button {
+    background-color: #f44336; *red
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button2 {
+
+      background-color: #f44336; *red
+      border: none;
+      color: white;
+      padding: 10px 30px;
+      text-align: center;
+      text-decoration: nones;
+      display: inline-block;
+      font-size: 16px;
